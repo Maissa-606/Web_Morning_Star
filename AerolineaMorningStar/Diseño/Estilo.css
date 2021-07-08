@@ -1,49 +1,50 @@
-
-body
-{
-  max-width: 1330px;
-  background: white;
-  margin-top: -0.1px;
-  margin-left: 0px;
-  position: absolute;
+body{
+  margin: 0;
 }
 
-fieldset
-{
-  border:0ch;
+.color{
+  background-color:#0f2b3a;
+  width: 100%; 
+  height: 110px;
+}
+.Logo1{
+  margin-top: 20px;
+  margin-left: 170px;
+  width:90px; 
+  height:70px;
+}
+.Logo2{
+  margin-top:15px;
+  margin-left: 1px;
+  margin-right: 69px;
+  width: 100px;
+  height: 70px;
+}
+#Header{
+  
+  margin: auto;
+  margin-top: -70px;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol{
+  list-style: none;
 }
 
-#navegacion
-{
-  width: 1309px;
-  height:100px ;
-  margin-left: 0px;
-  border-image: none;
-  background: #0f2b3a;
-  overflow: hidden;
+.Nav li a{
+  background-color: #0f2b3a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
 }
 
-.Logo
-{
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 90px;
-  width:110px; 
-  height:100px;
+.Nav > li{
+  float: left;
 }
-
-.Nombre_Logo
-{
-  position: absolute;
-  margin-top: -0.2cm;
-  margin-left: 6cm;
-  width:160px; 
-  height:110px;
+.Nav li a:hover{
+ background-color:#224457;
 }
-
-.img_avion
-{
-  position:static;
-  width: 1333px;
-  height: 790px;
+.Fondo{
+  width: 100%;
 }
