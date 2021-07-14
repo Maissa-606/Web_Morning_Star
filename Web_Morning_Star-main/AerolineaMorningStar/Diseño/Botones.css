@@ -1,0 +1,115 @@
+
+
+#Boton_Inicio
+{
+    margin: 0%;
+    padding-top: 1.5cm;
+
+    height: 2cm;
+    width: 50%;
+    margin-right: 0%;
+}
+
+.btnUno
+{
+  
+  margin-left: -1px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  color: #0f2b3a;
+  padding:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 0.5cm;
+  font-size: 0.7cm;
+  background: #ecac44;
+  border-radius: 50px;
+  border: 2px #0f2b3a;
+ 
+}
+
+.btnDos
+{
+  color: white;
+  background: #0f2b3a;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  padding:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 0.5cm;
+  border-radius: 50px;
+}
+
+.btnTres
+{
+  color: #0f2b3a;
+  background: #ecac44;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  padding:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 0.5cm;
+  border-radius: 50px;
+
+}
+
+.btnCuatro
+{
+  margin-left: -1px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  color: white;
+  padding:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 0.5cm;
+  font-size: 0.5cm;
+  background: #e656a5;
+  border-radius: 50px;
+
+
+}
+
+#btn_Conocer
+{
+  margin-top:2.5cm;
+  margin-left: 6.5cm;
+}
+
+.btnUno:hover
+{
+    transition: 0.5s;
+    color:#ecac44;
+    background: #0f2b3a;
+
+    /* SIRVE PARA HACER BOTONES CON GRADIENTE
+    background: -webkit-gradient(linear, left top, left bottom, from( #f571ba), to(#0f2b3a));*/
+}
+
+.btnDos:hover
+{
+  transition: 0.5s;
+  color: #0f2b3a;
+  background: #ecac44;
+}
+
+.btnTres:hover
+{
+  transition: 0.5s;
+  Color: #ecac44;
+  background: #0f2b3a;
+}
+
+.btnCuatro:hover
+{
+  transition: 0.5s;
+  Color: #e656a5;
+  background: white;
+
+}

@@ -1,0 +1,125 @@
+
+/* IMAGEN DE FONDO AVION*/
+#Fondo_Avion
+{
+
+  position:relative; 
+  background-image: url('../Imagenes/img_avion.png');
+  width: 100%;
+  height: 2000px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+
+ 
+}
+
+.Fondo
+{
+  width: 100%;
+  position: fixed;
+}
+
+
+.Cuerpo
+{
+  width: 100%
+}
+
+#img_rio
+{
+  
+  background-image: url('../Imagenes/img_viaje.jpeg');
+  margin-top: 2.5cm;
+  width: 700px;
+  height: 730px;
+  margin-bottom: 0%;
+  background-attachment: fixed;
+ 
+}
+
+#inf_caja
+{
+
+  margin-top: -2.5cm;
+  position: absolute;
+  background-image: url('../Imagenes/inf_cuadro.png');
+  width: 100%;
+  height: 900px;
+
+}
+
+#img_fam
+{
+  background-image: url('../Imagenes/img_fam.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: 11.1cm;
+  margin-top: 2cm;
+  padding-top: 2cm;
+}
+
+#inf_caja1
+{
+  background-image: url('../Imagenes/inf_cuadro1.png');
+  width: 1370px;
+  height: 600px;
+  margin-top: -3.5cm;
+  padding-top: 6cm;
+  margin-left: -11.1cm;
+  position: relative;
+}
+
+
+#img_paisaje
+{
+  margin-top: 0.2cm;
+  background-image: url('../Imagenes/img_pais.jpg');
+  width: 800px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#inf_caja2
+{
+  background-image: url('../Imagenes/inf_cuadro2.png');
+  width: 100%;
+  height: 900px;
+  position:absolute;
+}
+
+.img_tokyo
+{
+  margin-top: 2cm;
+  margin-left: 37px;
+  width: 345px;
+  height: 266px;
+}
+.img_dubai
+{
+  margin-top: 2cm;
+  margin-left: 55px;
+  width: 345px;
+  height: 266px;
+}
+
+.img_newYork
+{
+
+  margin-top: 2cm;
+  margin-left: 55px;
+  width: 345px;
+  height: 266px;
+}
+
+.Cuerpo3
+{
+  width: 100%;
+
+}
+
+.Logo_ent
+{
+  width: 450px;
+}

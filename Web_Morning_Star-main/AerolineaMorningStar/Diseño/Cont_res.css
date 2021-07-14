@@ -1,0 +1,136 @@
+
+#Seccion_Uno
+{
+  margin-top: 0.0cm;
+  z-index: 0;
+  width: 100%;
+  height: 30cm;
+  position: relative;
+}
+
+#caja_opaca
+{
+  margin-top: 0.0cm;
+  width: 100%;
+  height: 30cm;
+  position: absolute;
+  background: #362c3c;
+  opacity: 0.3;
+  position: absolute;
+}
+
+
+#Seccion_Media
+{
+  width: 100%;
+  z-index: 2; /* Permite tener la franja blanca encima del panel naranja*/
+  margin-top: -9.5cm;
+  position: absolute;
+}
+
+#Seccion_Dos
+{
+  margin-top: -0.5cm;
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+#btn_Registro
+{
+  margin-top: 80px;
+  margin-left: 150px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#Seccion_Tres
+{
+  width: 100%;
+  height: 900px;
+  margin-top:-0.7cm;
+  margin-left: -1cm;
+  
+}
+
+#Contenido
+{
+  padding-top: 2cm;
+  margin-left: 18.9cm;
+  font-family: 'Bree Serif', serif;
+}
+
+
+#Contenido1
+{
+  width: 600px;
+  height: 600px;
+  margin-top: 5cm;
+  font-family: 'Bree Serif', serif;
+
+}
+
+#Seccion_Cuatro
+{
+  margin-top:-3.5cm;
+  width: 100%;
+
+}
+
+#Seccion_Cinco
+{
+  width: 100%;
+  margin-top: 1.5cm;
+}
+
+#Contenido2
+{
+  margin-left: 18cm;
+}
+
+#btn_acercaD
+{
+  margin-top: 3cm;
+  margin-left: 7cm;
+}
+
+#cla_uno
+{
+  margin-top: -1.1cm;
+  width: 440px;
+  height: 700px;
+  background:#0f2b3a;
+  position: absolute;
+}
+
+#cla_dos
+{
+  margin-left: 11.6cm;
+  margin-top: -1.1cm;
+  width: 450px;
+  height: 700px;
+  background:#ecac44;
+  position: absolute;
+
+}
+
+#cla_tres
+{
+  margin-left: 23.5cm;
+  margin-top: -1.1cm;
+  width: 440px;
+  height: 700px;
+  background:#e656a5;
+  position: absolute;
+
+}
+
+#Hipervinculos
+{
+  margin: -3cm;
+  margin-right: 0cm;
+  width: 100%;
+ 
+}
+
+

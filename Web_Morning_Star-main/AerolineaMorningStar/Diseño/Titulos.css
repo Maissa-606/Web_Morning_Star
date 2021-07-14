@@ -1,0 +1,316 @@
+
+#cont_tit1
+{
+  width: 900px;
+  position: absolute;
+  margin-top: 4.5cm;
+  margin-left:3.3cm;
+}
+
+h1
+{
+  color: white;
+  font-family: 'Bree Serif', serif;
+  font-size: 1.6cm;
+  Line-height: 2.2cm;
+  position: relative;
+}
+
+.animate__animated.animate__backInRight 
+{
+  --animate-repeat: 2;
+  --animate-duration: 2s;
+  
+}
+
+
+
+h2
+{
+  font-family: 'Bree Serif', serif;
+  font-size: 1cm;
+}
+
+
+#titulo3
+{
+
+  color:#0f2b3a;
+  margin-top: 4cm;
+  margin-left: 3.9cm;
+  padding-bottom:1.7cm;
+
+}
+
+p
+{
+  color:#0f2b3a;
+  margin-top: -20px;
+  padding-left: 1.4cm;
+  font-family: 'STIX Two Math', serif;
+  font-size: 0.7cm;
+  line-height: 1.2cm;
+  text-align: justify;
+  
+}
+
+
+@keyframes slidein 
+{
+  from 
+  {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 3.2cm;
+    width: 100%;
+  }
+}
+
+#titulo4
+{
+  margin-top: -5.5cm;
+  margin-left: 7cm;
+  color: #ffbc51;
+  font-family: 'Bree Serif', serif;
+  font-size: 1.1cm;
+}
+
+#parr2
+{
+  margin-top: 2cm;
+  margin-left: 1.2cm;
+  color: #ffbc51;
+  font-family: 'STIX Two Math', serif;
+  line-height: 1.2cm;
+  text-align: justify;
+  font-size: 0.7cm;
+  
+
+
+}
+
+#parr3
+{
+  font-family: 'STIX Two Math', serif;
+  color:#e656a5;
+  line-height: 1.2cm;
+  font-size: 0.7cm;
+  margin-top: 2.5cm;
+  padding-left: 1.4cm;
+  font-family: 'STIX Two Math', serif;
+  font-size: 0.7cm;
+  line-height: 1.2cm;
+  text-align: justify;
+}
+
+#titulo5
+{
+
+  margin-top: 5cm;
+  margin-left: 4.8cm;
+  color:#e656a5;
+  font-family: 'Bree Serif', serif;
+  font-size: 1cm;
+  
+}
+
+h3
+{
+  font-family: 'Bree Serif', serif;
+  margin-top: 2cm;
+  font-size: 0.7cm;
+  margin-left: 4.5cm;
+
+}
+
+#conoce
+{
+  color: #ffbc51;
+
+}
+
+#viaja
+{
+  color: #0f2b3a;
+}
+
+#participa
+{
+  color: white;
+}
+
+
+
+#prrf_conoce
+{
+  margin-top: 1.2cm;
+  color: #ffbc51;
+  font-size: 0.5cm;
+}
+
+#prrf_viaja
+{
+  margin-top: 1.2cm;
+  color: #0f2b3a;
+  font-size: 0.5cm;
+}
+
+#prrf_participa
+{
+  margin-top: 1.2cm;
+  color: white;
+  font-size: 0.5cm;
+}
+
+h4
+{
+  color: #ffffffbc;
+  text-decoration-line: underline;
+  font-family: 'STIX Two Math', serif;
+
+}
+
+#Derechos
+{
+
+  font-family: 'Nanum Myeongjo', serif;
+  text-decoration-line: none;
+  margin-left: 0.7cm ;
+}
+
+#hip1
+{
+  font-size: 0.5cm;
+  margin-top: -4.5cm;
+  margin-left: 26.5cm;
+}
+
+#hip2
+{
+  font-size: 0.5cm;
+  margin-top: 0.5cm;
+  margin-left: 26.5cm;
+}
+
+#hip3
+{
+  font-size: 0.5cm;
+  margin-top: 0.5cm;
+  margin-left: 26.5cm;
+}
+
+
+#hip4
+{
+  font-size: 0.5cm;
+  margin-top: -4cm;
+  margin-left: 32.3cm;
+}
+
+
+#hip5
+{
+  font-size: 0.5cm;
+  margin-top: 0.5cm;
+  margin-left: 32.3cm;
+}
+
+
+
+
+/* INICIA ANIMACION DE TEXTO
+
+.Titulo2
+{
+  margin-top: -7.5cm;
+  background:transparent;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+html, body
+{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: white;
+  font-family: Arial;
+}
+*/
+
+
+/*
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset
+{
+	100% {stroke-dashoffset: -35%;}
+  
+}
+
+ <!-- 
+               <div class="Titulo2">
+              <svg viewBox="0 0 1000 400">
+                <symbol id="s-text">
+                  <text text-anchor="middle" x="50%" y="80%">Viaja Hoy</text>
+                </symbol> 
+                <g class = "g-ants">
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                </g>
+              </svg>
+            </div> TERMINA TITULO ANIMADO
+            -->
+ FIN ANIMACION DE TEXTO*/
+
+ 
+
+ 
