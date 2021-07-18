@@ -218,6 +218,28 @@ h4
   margin-left: 32.3cm;
 }
 
+#origen
+{
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  margin-top: 3cm;
+  margin-left: 30px;
+  color: #e656a5;
+  text-decoration: none;
+}
+
+#destino
+{
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  margin-left: 7.6cm;
+  margin-top: -1.5cm;
+  color: #e656a5;
+  text-decoration: none;
+
+}
+
+
 
 
 
