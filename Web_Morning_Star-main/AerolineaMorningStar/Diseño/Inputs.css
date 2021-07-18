@@ -7,3 +7,16 @@
     border-width: 1.4px;
     border-radius: 5px;
 }
+
+#start{
+    width: 3.8cm;
+    height: 0.8cm;
+}
+
+#Enviar{
+    position: absolute;
+    margin-left: 870px;
+    margin-top: -8px;
+    width: 20px;
+    height: 20px;
+}

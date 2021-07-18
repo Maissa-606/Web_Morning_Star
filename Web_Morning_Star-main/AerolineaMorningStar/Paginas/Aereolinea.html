@@ -26,6 +26,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c2f861b258.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -63,11 +64,11 @@
               <div id="Contenedor-Text">
                 <h2 id="Text-Aero">Aerolíneas tradicionales y de bajo costo</h2>
                 <div id="Cont-Form">
+                  <form action="">
                   <div id="Encb_Form">
                   </div>
                   <div id=cont_txt>
                     <h4 id="origen">Origen</h4>
-
                     <div id="seccion_pais">
                       <input type="search" class="buscar_pais"  list="lista_pais">
                       <datalist id="lista_pais">
@@ -77,7 +78,6 @@
                         <option value="Colorado">
                       </datalist>
                     </div>
-                    <img class="img_flecha" src="../Imagenes/flecha-correcta.png" width="25px" height="25px">
                     <h4 id="destino">Destino</h4>
                     <div id="seccion_pais2">
                       <input type="search" class="buscar_pais"  list="lista_pais">
@@ -88,20 +88,27 @@
                         <option value="Colorado">
                       </datalist>
                     </div>
-
-
-                   
+                    <div id="Calendario">
+                      <input type="date" id="start" name="trip-start"
+                      value="2018-07-22"
+                      min="2021-01-01" max="2022-12-31">               
+                    </div>
+                    <div id="Calendario2">
+                      <input type="date" id="start" name="trip-start"
+                      value="2018-07-22"
+                      min="2021-01-01" max="2022-12-31">               
+                    </div>
+                    <a href="../Paginas/Compra.html"><i class="fas fa-paper-plane" id="Enviar"></i></a>
                   </div>
-                  
+                  <img class="img_flecha" src="../Imagenes/flecha-correcta.png" alt="">
+                </form>
                 </div>
             </div>
             </div>
           </div>
-
       </div>
-      
-
 </div>
+
 
 
 </body>

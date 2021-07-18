@@ -133,6 +133,7 @@
 .img_flecha
 {
   margin-left: 6.8cm;
-  margin-top: -2.8cm;
-
+  margin-top: -100px;
+  width: 15px;
+  height: 15px;
 }
