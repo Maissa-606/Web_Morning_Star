@@ -13,10 +13,22 @@
     height: 0.8cm;
 }
 
-#Enviar{
+#Enviar
+{
     position: absolute;
     margin-left: 870px;
-    margin-top: -8px;
-    width: 20px;
-    height: 20px;
+    margin-top: -13px;
+    width: 30px;
+    height: 30px;
 }
+
+#Enviar:hover
+{
+    
+    margin-left: 870px;
+    margin-top: -13px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../Imagenes/enviar2.png);
+}
+
