@@ -32,3 +32,25 @@
     background-image: url(../Imagenes/enviar2.png);
 }
 
+.origen{
+    margin-left: 90px;
+}
+.destino{
+    margin-left: 85px;
+    margin-top: 2px;
+}
+.Fecha_i{
+    margin-left: 35px;
+    margin-top: 2px;
+}
+.Fecha_f{
+    margin-left: 39px;
+    margin-top: 2px;
+}
+.Nom_Comprador{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.fondo-compra{
+    background-color: aquamarine;
+}

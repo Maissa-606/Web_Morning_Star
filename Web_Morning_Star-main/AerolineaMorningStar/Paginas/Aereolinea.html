@@ -28,7 +28,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c2f861b258.js" crossorigin="anonymous"></script>
 
-
+        <!-- ESTE LINK ES DE JAVASCRIPT -->
+        <script type="text/javascript" src="../JavaScript/main.js"></script>
 </head>
 <body>
     <div class="Encabezado">
@@ -70,7 +71,7 @@
                   <div id=cont_txt>
                     <h4 id="origen">Origen</h4>
                     <div id="seccion_pais">
-                      <input type="search" class="buscar_pais"  list="lista_pais">
+                      <input type="search" class="buscar_pais"  list="lista_pais" id="pais">
                       <datalist id="lista_pais">
                         <option value="Camaro">
                         <option value="Corvette">
@@ -80,7 +81,7 @@
                     </div>
                     <h4 id="destino">Destino</h4>
                     <div id="seccion_pais2">
-                      <input type="search" class="buscar_pais"  list="lista_pais">
+                      <input type="search" class="buscar_pais"  list="lista_pais" id="lugar">
                       <datalist id="lista_pais">
                         <option value="Camaro">
                         <option value="Corvette">
@@ -98,7 +99,7 @@
                       value="2018-07-22"
                       min="2021-01-01" max="2022-12-31">               
                     </div>
-                    <a href="../Paginas/Compra.html"> <img src="../Imagenes/enviar.png" id="Enviar"></a>
+                    <a href="../Paginas/Compra.html"> <img src="../Imagenes/enviar.png" id="Enviar" onclick="pago()"></a>
                   </div>
                   <img class="img_flecha" src="../Imagenes/flecha-correcta.png" alt="">
                 </form>
