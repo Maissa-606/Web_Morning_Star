@@ -25,7 +25,7 @@
 <script src="https://kit.fontawesome.com/c2f861b258.js" crossorigin="anonymous"></script>
 
 <!-- ESTE LINK ES DE JAVASCRIPT -->
-<script type="text/javascript" src="../JavaScript/main.js"></script>
+<script src="../JavaScript/main.js"></script>
 
 
   </head>
@@ -59,60 +59,96 @@
 
     <div class="contenidor_formulario"><!--DIV PADRE-->
       <div class="formulario">
-        <form>
+        <form action="" id="borrar">
           <fieldset class="Contenedor-Form">
             <div class="dato1">
               <label id="pais">
                 Origen
               </label>
-              <input type="text" class="origen">
+              <input type="text" class="origen" id="num1">
             </div>
             <div class="dato2">
               <label id="destino1">
                 Destino
               </label>
-              <input type="text" class="destino">
+              <input type="text" class="destino" id="num2">
             </div>
             <div class="dato3">
               <label class="fecha_inicio">
                 Fecha de Inicio
               </label>
-              <input type="text" class="Fecha_i">
+              <input type="text" class="Fecha_i" id="num3">
             </div>
             <div class="dato4">
               <label class="fecha_final">
                 Fecha de Final
               </label>
-              <input type="text" class="Fecha_f">
+              <input type="text" class="Fecha_f" id="num4">
             </div>
             <div>
               <label class="Persona">
                 Nombre Comprador
               </label>
-              <input type="text" class="Nom_Comprador">
+              <input type="text" class="Nom_Comprador " id="num5">
             </div>
             <div>
               <label class="Persona">
                 Niños
               </label>
-              <input type="text" class="Nom_Comprador">
+              <input type="text" class="Nom_Comprador" id="num6">
             </div>
             <div>
               <label class="Persona">
                 Jovenes
               </label>
-              <input type="text" class="Nom_Comprador">
+              <input type="text" class="Nom_Comprador" id="num7">
             </div>
             <div>
               <label class="Persona">
                Adultos
               </label>
-              <input type="text" class="Nom_Comprador">
+              <input type="text" class="Nom_Comprador" id="num8">
             </div>
             <div>
-              <label class="Persona">
-                Pasajeros Totales:
-               </label>
+              <hr>
+              <h5 >Factura</h5><hr>
+              <div id="info">
+                <label id="rnum1">
+                </label><br>
+                <label id="rnum2">
+                </label><br>
+                <label id="rnum3">
+                </label><br>
+                <label id="rnum4">
+                </label><br>
+                <label id="rnum5">
+                </label><hr>
+                <label id="rnum6">
+                </label><br>
+                <label id="rnum7">
+                </label><br>
+                <label id="rnum8">
+                </label><hr>
+                <label id="rnum9">
+                </label><hr>
+                <label id="rnum10">
+                </label><br>
+                <label id="rnum11">
+                </label><br>
+                <label id="rnum12">
+                </label><hr>
+              </div>
+            </div>
+            <div>
+              <button type="button" onclick="pago()">
+                Pagar
+              </button>
+              <button type="button" onclick="window.print()">
+                Imprimir
+              </button>
+              <button type="button" onclick="borrador()">
+                Borrar
+              </button>
             </div>
           </fieldset>
         </form>
