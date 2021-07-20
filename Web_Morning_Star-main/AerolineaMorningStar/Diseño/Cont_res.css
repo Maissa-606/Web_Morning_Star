@@ -221,6 +221,10 @@ height: 12cm;
   align-items: center;
 }
 fieldset{
+  background-image: url(../Imagenes/avion.jpg);
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   width: 320px;
   height: 725px;
 }

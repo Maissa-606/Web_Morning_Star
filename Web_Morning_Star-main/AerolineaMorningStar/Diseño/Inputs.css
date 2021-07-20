@@ -8,7 +8,7 @@
     border-radius: 5px;
 }
 
-#start{
+#start1,#start2{
     width: 3.8cm;
     height: 0.8cm;
 }
@@ -16,20 +16,11 @@
 #Enviar
 {
     position: absolute;
-    margin-left: 870px;
+    margin-left: 850px;
     margin-top: -13px;
-    width: 30px;
+    width: 65px;
     height: 30px;
-}
-
-#Enviar:hover
-{
-    
-    margin-left: 870px;
-    margin-top: -13px;
-    width: 30px;
-    height: 30px;
-    background-image: url(../Imagenes/enviar2.png);
+    background-color: cadetblue;
 }
 
 .origen{
@@ -52,5 +43,14 @@
     margin-left: 4px;
 }
 .fondo-compra{
-    background-color: aquamarine;
+    background-image: url(../Imagenes/aero9.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#factura{
+    background-color: skyblue;
+}
+#boton1,#boton2,#boton3{
+    background-color: teal;
 }

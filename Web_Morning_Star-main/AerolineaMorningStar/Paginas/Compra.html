@@ -61,58 +61,65 @@
       <div class="formulario">
         <form action="" id="borrar">
           <fieldset class="Contenedor-Form">
-            <div class="dato1">
-              <label id="pais">
-                Origen
-              </label>
-              <input type="text" class="origen" id="num1">
+            <div id="textog">
+              <div class="dato1">
+                <label id="pais">
+                  Origen
+                </label>
+                <input type="text" class="origen" id="num1" disabled>
+              </div>
+              <div class="dato2">
+                <label id="destino1">
+                  Destino
+                </label>
+                <input type="text" class="destino" id="num2" disabled>
+              </div>
+              <div class="dato3">
+                <label class="fecha_inicio">
+                  Fecha de Inicio
+                </label>
+                <input type="text" class="Fecha_i" id="num3"disabled>
+              </div>
+              <div class="dato4">
+                <label class="fecha_final">
+                  Fecha de Final
+                </label>
+                <input type="text" class="Fecha_f" id="num4" disabled>
+              </div>
+              <div>
+                <label class="Persona">
+                  Nombre Comprador
+                </label>
+                <input type="text" class="Nom_Comprador " id="num5">
+              </div>
+              <div>
+                <label class="Persona">
+                  Niños
+                </label>
+                <input type="text" class="Nom_Comprador" id="num6">
+              </div>
+              <div>
+                <label class="Persona">
+                  Jovenes
+                </label>
+                <input type="text" class="Nom_Comprador" id="num7">
+              </div>
+              <div>
+                <label class="Persona">
+                Adultos
+                </label>
+                <input type="text" class="Nom_Comprador" id="num8">
+              </div>
+              <script>
+                  document.getElementById("num1").value=localStorage.getItem("text1");
+                  document.getElementById("num2").value=localStorage.getItem("text2");
+                  document.getElementById("num3").value=localStorage.getItem("text3");
+                  document.getElementById("num4").value=localStorage.getItem("text4");
+              </script>
             </div>
-            <div class="dato2">
-              <label id="destino1">
-                Destino
-              </label>
-              <input type="text" class="destino" id="num2">
-            </div>
-            <div class="dato3">
-              <label class="fecha_inicio">
-                Fecha de Inicio
-              </label>
-              <input type="text" class="Fecha_i" id="num3">
-            </div>
-            <div class="dato4">
-              <label class="fecha_final">
-                Fecha de Final
-              </label>
-              <input type="text" class="Fecha_f" id="num4">
-            </div>
-            <div>
-              <label class="Persona">
-                Nombre Comprador
-              </label>
-              <input type="text" class="Nom_Comprador " id="num5">
-            </div>
-            <div>
-              <label class="Persona">
-                Niños
-              </label>
-              <input type="text" class="Nom_Comprador" id="num6">
-            </div>
-            <div>
-              <label class="Persona">
-                Jovenes
-              </label>
-              <input type="text" class="Nom_Comprador" id="num7">
-            </div>
-            <div>
-              <label class="Persona">
-               Adultos
-              </label>
-              <input type="text" class="Nom_Comprador" id="num8">
-            </div>
-            <div>
-              <hr>
-              <h5 >Factura</h5><hr>
-              <div id="info">
+              <div id="factura">
+                <hr>
+                <h5 >Factura</h5><hr>
                 <label id="rnum1">
                 </label><br>
                 <label id="rnum2">
@@ -138,15 +145,14 @@
                 <label id="rnum12">
                 </label><hr>
               </div>
-            </div>
             <div>
-              <button type="button" onclick="pago()">
+              <button type="button" onclick="pago()" id="boton1" >
                 Pagar
               </button>
-              <button type="button" onclick="window.print()">
+              <button type="button" onclick="window.print()" id="boton2">
                 Imprimir
               </button>
-              <button type="button" onclick="borrador()">
+              <button type="button" onclick="borrador()" id="boton3">
                 Borrar
               </button>
             </div>
