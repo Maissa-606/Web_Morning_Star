@@ -241,9 +241,115 @@ h4
 
 
 
+/* AGREGAR CODIGO NUEVO A APACHE NEATBEANS DESDE AQUÍ*/
+
+#tit_grupo
+{
+  margin-top: 6.5cm;
+  margin-left: 6.5cm;
+  font-size: 1.4cm;
+  color: white;
+}
+#img_atardecer
+{
+  background-image: url(../Imagenes/img_atardecer2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 890px;
+  position: absolute;
+}
+
+#Caja_Opaca1
+{
+  margin-top: -6.5cm;
+  width: 100%;
+  height: 890px;
+  background: #360b529a ;
+  opacity: 0.5;
+  position: absolute;
+
+}
+
+#Cuerpo
+{
+  margin-top: 0%;
+  width: 100%;
+  height: 890px;
+}
+
+.animate__fadeInRight
+{
+
+  animation-duration: 2.9s; /* don't forget to set a duration! */
+}
+.Cuerpo-un
+{
+  margin-top: -16.4cm;
+  width: 100%;
+  position: absolute;
+}
+
+#Grupo
+{
+  margin-top: -4.5cm;
+  position: absolute;
+  background: #0f2b3a;
+  width: 100%;
+  height: 900px;
+}
+
+#sxc_Maissa
+{
+  position: relative;
+}
+
+.Maissa
+{
+  margin-left: 2cm;
+  margin-top: 2cm;
+  position: absolute;
+  width: 550px;
+  height: 450px;
+  
+}
+
+.marco1
+{
+  margin-left: 2cm;
+  margin-top: 2cm;
+  position: absolute;
+  width: 610px;
+  height: 510px;
+
+}
+
+#inf_personal
+{
+  position: absolute;
+  margin-top: 2.5cm;
+  margin-left: 18.5cm;
+}
+
+#nomb
+{
+  margin-left: 20px;
+  color: #ffbc51;
+}
+
+#inf
+{
+  margin-left: -20px;
+  font-size: 35px;
+  line-height: 2cm;
+  margin-top: 1.5cm;
+  color: aliceblue;
+}
 
 
-/* INICIA ANIMACION DE TEXTO
+
+
+/* #360b529a INICIA ANIMACION DE TEXTO
 
 .Titulo2
 {
