@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
   <head>
 <!-- LINKS DE LOS ESTILOS-->
 <link href="../Diseño/Encab.css" rel="stylesheet" type="text/css" />
@@ -50,115 +54,143 @@
           <div id="Acer_d">
             <li><a href="../Paginas/Acerca de.html">Acerca de</a></li>
           </div>
-          <div id="Iniciar">
-            <li><a href="../Paginas/Iniciar Sesion.html">Iniciar Sesión</a></li>
-          </div>
         </ul>
       </div> <!--Finaliza Contenedor de Navegacion-->
     </div> <!--FINALIZA ENCABEZADO DE LA PAGINA-->
 
-    <div class="contenidor_formulario"><!--DIV PADRE-->
-      <div class="formulario">
-        <form action="" id="borrar">
-          <fieldset class="Contenedor-Form">
-            <div id="textog">
-              <div class="dato1">
-                <label id="pais">
-                  Origen
-                </label>
-                <input type="text" class="origen" id="num1" disabled>
+    <div id="Cuerpo-Principal2">
+              <div id="Seccion-1">
+                <div id="Contenedor-Text">
+                  <h2 id="Text-Compra">Registro de Compra de Boleto</h2>
+                  <div id="Cont-Form-Compra">
+                    <form action="Compra.html">
+                    <div id="Encb_Formulario_Compra">
+                        <div id="textog">
+                          <div class="dato1">
+                            <label id="pais">
+                              Origen
+                            </label>
+                            <input type="text" class="origen" id="num1" disabled>
+                          </div>
+                          <div class="dato2">
+                            <label id="destino1">
+                              Destino
+                            </label>
+                            <input type="text" class="destino" id="num2" disabled>
+                          </div>
+                          <div class="dato3">
+                            <label class="fecha_inicio">
+                              Fecha de Inicio
+                            </label>
+                            <input type="text" class="Fecha_i" id="num3"disabled>
+                          </div>
+                          <div class="dato4">
+                            <label class="fecha_final">
+                              Fecha de Final
+                            </label>
+                            <input type="text" class="Fecha_f" id="num4" disabled>
+                          </div>
+                          <div>
+                            <label class="Persona">
+                              Nombre Comprador
+                            </label>
+                            <input type="text" class="Nom_Comprador " id="num5">
+                          </div>
+                          <div id="NiñosID">
+                            <label class="Persona">
+                              Niños
+                            </label>
+                            <input type="text" class="datosNumero" id="num6">
+                          </div>
+                          <div id="JovenesID">
+                            <label class="Persona">
+                              Jovenes
+                            </label>
+                            <input type="text" class="datosNumero" id="num7">
+                          </div>
+                          <div id="AdultosID">
+                            <label class="Persona">
+                            Adultos
+                            </label>
+                            <input type="text" class="datosNumero" id="num8">
+                          </div>
+                          <div class="Botones_Compra">
+                            <button type="button" onclick="pago()" id="boton1" >
+                              Pagar
+                            </button>
+                            <button type="button" onclick="window.print()" id="boton2">
+                              Imprimir
+                            </button>
+                            <button type="button" onclick="borrador()" id="boton3">
+                              Borrar
+                            </button>
+                          </div>
+                          <script>
+                              document.getElementById("num1").value=localStorage.getItem("text1");
+                              document.getElementById("num2").value=localStorage.getItem("text2");
+                              document.getElementById("num3").value=localStorage.getItem("text3");
+                              document.getElementById("num4").value=localStorage.getItem("text4");
+                          </script>
+                          <Fieldset>
+                           <label class="Centrar-Titulo">Factura de Compra</label>
+                            <hr>
+                            <label id="Dato1">Origen:</label>
+                            <label id="Dato2">Destino:</label>
+                            <label id="Dato3">Fecha de Inicio:</label>
+                            <label id="Dato4">Fecha Final:</label>
+                            <label id="Dato5">Nombre del Comprador:</label>
+                            <label id="Dato6">Niños:</label>
+                            <label id="Dato7">Jovenes:</label>
+                            <label id="Dato8">Adultos:</label>
+                            <label id="Dato9">Pasajeros Totales:</label>
+                            <label id="Dato10">Sub-Total:</label>
+                            <label id="Dato11">15% ISV:</label>
+                            <label id="Dato12">Total Pagado:</label>
+                            <div class="Factura1">
+                              <label id="rnum1"></label>
+                            </div>
+                            <div class="Factura2">
+                              <label id="rnum2"></label>
+                            </div>
+                            <div class="Factura3">
+                              <label  id="rnum3"></label>
+                            </div>
+                            <div class="Factura4">
+                              <label  id="rnum4"></label>
+                            </div>
+                            <div class="Factura5">
+                              <label id="rnum5"></label>
+                            </div>
+                            <div class="Factura6">
+                              <label  id="rnum6"></label>
+                            </div>
+                            <div class="Factura7">
+                              <label id="rnum7"></label>
+                            </div>
+                            <div class="Factura8">
+                              <label  id="rnum8"></label>
+                            </div>
+                            <div class="Factura9">
+                              <label  id="rnum9"></label>
+                            </div>
+                            <div class="Factura10" >
+                              <label id="rnum10"></label>
+                            </div>
+                            <div class="Factura11" >
+                              <label id="rnum11"></label>
+                            </div>
+                            <div class="Factura12">
+                              <label id="rnum12"></label>
+                            </div>
+                          </Fieldset>
+                        </div>                     
+                      </div>        
+                    </div>
+                  </div>
+                </form>
               </div>
-              <div class="dato2">
-                <label id="destino1">
-                  Destino
-                </label>
-                <input type="text" class="destino" id="num2" disabled>
-              </div>
-              <div class="dato3">
-                <label class="fecha_inicio">
-                  Fecha de Inicio
-                </label>
-                <input type="text" class="Fecha_i" id="num3"disabled>
-              </div>
-              <div class="dato4">
-                <label class="fecha_final">
-                  Fecha de Final
-                </label>
-                <input type="text" class="Fecha_f" id="num4" disabled>
-              </div>
-              <div>
-                <label class="Persona">
-                  Nombre Comprador
-                </label>
-                <input type="text" class="Nom_Comprador " id="num5">
-              </div>
-              <div>
-                <label class="Persona">
-                  Niños
-                </label>
-                <input type="text" class="Nom_Comprador" id="num6">
-              </div>
-              <div>
-                <label class="Persona">
-                  Jovenes
-                </label>
-                <input type="text" class="Nom_Comprador" id="num7">
-              </div>
-              <div>
-                <label class="Persona">
-                Adultos
-                </label>
-                <input type="text" class="Nom_Comprador" id="num8">
-              </div>
-              <script>
-                  document.getElementById("num1").value=localStorage.getItem("text1");
-                  document.getElementById("num2").value=localStorage.getItem("text2");
-                  document.getElementById("num3").value=localStorage.getItem("text3");
-                  document.getElementById("num4").value=localStorage.getItem("text4");
-              </script>
-            </div>
-              <div id="factura">
-                <hr>
-                <h5 >Factura</h5><hr>
-                <label id="rnum1">
-                </label><br>
-                <label id="rnum2">
-                </label><br>
-                <label id="rnum3">
-                </label><br>
-                <label id="rnum4">
-                </label><br>
-                <label id="rnum5">
-                </label><hr>
-                <label id="rnum6">
-                </label><br>
-                <label id="rnum7">
-                </label><br>
-                <label id="rnum8">
-                </label><hr>
-                <label id="rnum9">
-                </label><hr>
-                <label id="rnum10">
-                </label><br>
-                <label id="rnum11">
-                </label><br>
-                <label id="rnum12">
-                </label><hr>
-              </div>
-            <div>
-              <button type="button" onclick="pago()" id="boton1" >
-                Pagar
-              </button>
-              <button type="button" onclick="window.print()" id="boton2">
-                Imprimir
-              </button>
-              <button type="button" onclick="borrador()" id="boton3">
-                Borrar
-              </button>
-            </div>
-          </fieldset>
-        </form>
+          </div>//
       </div>
-    </div>
+  </div>
   </body>
 </html>

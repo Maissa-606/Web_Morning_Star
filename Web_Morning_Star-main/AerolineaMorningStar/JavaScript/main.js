@@ -10,15 +10,15 @@ function pago(){
   var totalp = ninos + joven + adulto;
   var sub = 0;
   var isv, total;
-  document.getElementById("rnum1").innerHTML="Pais de viaje : "+ origen;
+  document.getElementById("rnum1").innerHTML=""+ origen;
   document.getElementById("rnum1").style.display="block";
-  document.getElementById("rnum2").innerHTML="Destino : "+ destino;
+  document.getElementById("rnum2").innerHTML=""+ destino;
   document.getElementById("rnum2").style.display="block";
-  document.getElementById("rnum3").innerHTML="Fecha inicial : "+ finicio;
+  document.getElementById("rnum3").innerHTML=""+ finicio;
   document.getElementById("rnum3").style.display="block";
-  document.getElementById("rnum4").innerHTML="Fecha final : "+ ffinal;
+  document.getElementById("rnum4").innerHTML=""+ ffinal;
   document.getElementById("rnum4").style.display="block";
-  document.getElementById("rnum5").innerHTML="Cliente : "+ ncomprador;
+  document.getElementById("rnum5").innerHTML=""+ ncomprador;
   document.getElementById("rnum5").style.display="block";
   document.getElementById("rnum9").style.color="black";
   if(ninos>0){
