@@ -54,12 +54,14 @@
 #boton1,#boton2,#boton3{
     background-color: teal;
 }
-#Text-Compra{
-    margin-left: 470px;
-    margin-top: 60px;
+
+#Text-Aero{
     position: absolute;
+    margin-left: 390px;
+    margin-top: 60px;
     color: white;
-}
+  }
+
 #Encb_Formulario_Compra{
     background-color: #0f2b3a;
     width: 920px;
@@ -69,132 +71,42 @@
     margin-top: 0px;
     border-radius: 10px;
 }
-
-#textog{
-    margin-top: 70px;
-    margin-left: 100px;
-}
-.Botones_Compra{
-    margin-top: 10px;
-}
-.datosNumero{
-    width: 40px;
-}
-#Dato2{
+#Cont-Form-Compra{
+    background-color: white;
+    width: 920px;
+    height: 560px;
     position: absolute;
-    margin-top: 20px;
-    margin-left: -53px;
-}
-#Dato3{
-    position: absolute;
-    margin-top: 40px;
-    margin-left: -53px;
-}
-#Dato4{
-    position: absolute;
-    margin-top: 60px;
-    margin-left: -53px;
-}
-#Dato5{
-    position: absolute;
-    margin-top: 80px;
-    margin-left: -53px;
-}
-#Dato6{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: -53px;
-}
-#Dato7{
-    position: absolute;
-    margin-top: 120px;
-    margin-left: -53px;
-}
-#Dato8{
-    position: absolute;
-    margin-top: 140px;
-    margin-left: -53px;
-}
-#Dato9{
-    position: absolute;
+    margin-left: 250px;
     margin-top: 160px;
-    margin-left: -53px;
-}
-#Dato10{
+    border-radius: 15px;
+  }
+  #NiñosID{
     position: absolute;
-    margin-top: 180px;
-    margin-left: -53px;
-}
-#Dato11{
-    position: absolute;
-    margin-top: 200px;
-    margin-left: -53px;
-}
-#Dato12{
-    position: absolute;
-    margin-top: 220px;
-    margin-left: -53px;
-}
-
-
-/*Datos Ocultos de Formularios*/
-.Factura1{
-    position: absolute;
-    margin-left: 120px;
+    margin-left: 320px;
     margin-top: -20px;
-}
-.Factura2{
+  }
+  #JovenesID{
+    margin-left: 415px;
+    margin-top: -18px;
+  }
+  #AdultosID{
+    margin-left: 522px;
+    margin-top: -18px;
+  }
+  
+  Fieldset{
+  position: absolute;
+  margin-top: 20px;
+  width: 500px;
+  height: 280px;
+  }
+  .Centrar-Titulo{
+    margin-left: 170px;
+  }
+
+  #Text-Compra{
+    margin-left: 470px;
+    margin-top: 60px;
     position: absolute;
-    margin-left: 120px;
-    margin-top: 0px;
-}
-.Factura3{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 22px;
-}
-.Factura4{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 45px;
-}
-.Factura5{
-    position: absolute;
-    margin-left: 160px;
-    margin-top: 63px;
-}
-.Factura6{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 82px;
-}
-.Factura7{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 102px;
-}
-.Factura8{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 122px;
-}
-.Factura9{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 142px;
-}
-.Factura10{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 162px;
-}
-.Factura11{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 182px;
-}
-.Factura12{
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 202px;
+    color: white;
 }

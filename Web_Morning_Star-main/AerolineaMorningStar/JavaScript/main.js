@@ -22,31 +22,31 @@ function pago(){
   document.getElementById("rnum5").style.display="block";
   document.getElementById("rnum9").style.color="black";
   if(ninos>0){
-    document.getElementById("rnum6").innerHTML="Cantidad de niños : "+ ninos;
+    document.getElementById("rnum6").innerHTML=""+ ninos;
     sub += (250 * ninos);
     document.getElementById("rnum6").style.display="block";
     if(joven>0){
-      document.getElementById("rnum7").innerHTML="Cantidad de jovenes : "+ joven;
+      document.getElementById("rnum7").innerHTML=""+ joven;
       sub += (500 * joven);
       document.getElementById("rnum7").style.display="block";
       if(adulto>0){
-        document.getElementById("rnum8").innerHTML="Cantidad de adultos : "+ adulto;
+        document.getElementById("rnum8").innerHTML=""+ adulto;
         sub += (1000 * adulto);
         document.getElementById("rnum8").style.display="block";
-        document.getElementById("rnum9").innerHTML="Cantidad de personas : "+ totalp;
+        document.getElementById("rnum9").innerHTML=""+ totalp;
         document.getElementById("rnum9").style.display="block";
-        document.getElementById("rnum10").innerHTML="Sub-total : L. "+ sub;
+        document.getElementById("rnum10").innerHTML=""+ sub;
         document.getElementById("rnum10").style.display="block";
         isv= sub * 0.15;
-        document.getElementById("rnum11").innerHTML="15% ISV : L. "+ isv;
+        document.getElementById("rnum11").innerHTML=""+ isv;
         document.getElementById("rnum11").style.display="block";
         total = sub + isv;
-        document.getElementById("rnum12").innerHTML="Gran total: L. "+ total;
+        document.getElementById("rnum12").innerHTML=""+ total;
         document.getElementById("rnum12").style.display="block";
       }
       else{
         document.getElementById("rnum8").style.display="none";
-        document.getElementById("rnum9").innerHTML="Cantidad de personas : "+ totalp;
+        document.getElementById("rnum9").innerHTML=""+ totalp;
         document.getElementById("rnum9").style.display="block";
         document.getElementById("rnum10").innerHTML="Sub-total : L. "+ sub;
         document.getElementById("rnum10").style.display="block";
@@ -54,38 +54,38 @@ function pago(){
         document.getElementById("rnum11").innerHTML="15% ISV : L. "+ isv;
         document.getElementById("rnum11").style.display="block";
         total = sub + isv;
-        document.getElementById("rnum12").innerHTML="Gran total: L. "+ total;
+        document.getElementById("rnum12").innerHTML=""+ total;
         document.getElementById("rnum12").style.display="block";
       }
     }
     else{
       document.getElementById("rnum7").style.display="none";
       if(adulto>0){
-        document.getElementById("rnum8").innerHTML="Cantidad de adultos : "+ adulto;
+        document.getElementById("rnum8").innerHTML=""+ adulto;
         sub += (1000 * adulto);
         document.getElementById("rnum8").style.display="block";
-        document.getElementById("rnum9").innerHTML="Cantidad de personas : "+ totalp;
+        document.getElementById("rnum9").innerHTML=""+ totalp;
         document.getElementById("rnum9").style.display="block";
-        document.getElementById("rnum10").innerHTML="Sub-total : L. "+ sub;
+        document.getElementById("rnum10").innerHTML=""+ sub;
         document.getElementById("rnum10").style.display="block";
         isv= sub * 0.15;
-        document.getElementById("rnum11").innerHTML="15% ISV : L. "+ isv;
+        document.getElementById("rnum11").innerHTML=""+ isv;
         document.getElementById("rnum11").style.display="block";
         total = sub + isv;
-        document.getElementById("rnum12").innerHTML="Gran total: L. "+ total;
+        document.getElementById("rnum12").innerHTML=""+ total;
         document.getElementById("rnum12").style.display="block";
       }
       else{
         document.getElementById("rnum8").style.display="none";
-        document.getElementById("rnum9").innerHTML="Cantidad de personas : "+ totalp;
+        document.getElementById("rnum9").innerHTML=""+ totalp;
         document.getElementById("rnum9").style.display="block";
         document.getElementById("rnum10").innerHTML="Sub-total : L. "+ sub;
         document.getElementById("rnum10").style.display="block";
         isv= sub * 0.15;
-        document.getElementById("rnum11").innerHTML="15% ISV : L. "+ isv;
+        document.getElementById("rnum11").innerHTML=""+ isv;
         document.getElementById("rnum11").style.display="block";
         total = sub + isv;
-        document.getElementById("rnum12").innerHTML="Gran total: L. "+ total;
+        document.getElementById("rnum12").innerHTML=""+ total;
         document.getElementById("rnum12").style.display="block";
       }
     }
@@ -93,53 +93,53 @@ function pago(){
   else{
     document.getElementById("rnum6").style.display="none";
     if(joven>0){
-      document.getElementById("rnum7").innerHTML="Cantidad de jovenes : "+ joven;
+      document.getElementById("rnum7").innerHTML=""+ joven;
       sub += (500 * joven);
       document.getElementById("rnum7").style.display="block";
       if(adulto>0){
-        document.getElementById("rnum8").innerHTML="Cantidad de adultos : "+ adulto;
+        document.getElementById("rnum8").innerHTML=""+ adulto;
         sub += (1000 * adulto);
         document.getElementById("rnum8").style.display="block";
-        document.getElementById("rnum9").innerHTML="Cantidad de personas : "+ totalp;
+        document.getElementById("rnum9").innerHTML=""+ totalp;
         document.getElementById("rnum9").style.display="block";
-        document.getElementById("rnum10").innerHTML="Sub-total : L. "+ sub;
+        document.getElementById("rnum10").innerHTML=""+ sub;
         document.getElementById("rnum10").style.display="block";
         isv= sub * 0.15;
-        document.getElementById("rnum11").innerHTML="15% ISV : L. "+ isv;
+        document.getElementById("rnum11").innerHTML=""+ isv;
         document.getElementById("rnum11").style.display="block";
         total = sub + isv;
-        document.getElementById("rnum12").innerHTML="Gran total: L. "+ total;
+        document.getElementById("rnum12").innerHTML=""+ total;
         document.getElementById("rnum12").style.display="block";
       }
       else{
         document.getElementById("rnum8").style.display="none";
-        document.getElementById("rnum9").innerHTML="Cantidad de personas : "+ totalp;
+        document.getElementById("rnum9").innerHTML=""+ totalp;
         document.getElementById("rnum9").style.display="block";
-        document.getElementById("rnum10").innerHTML="Sub-total : L. "+ sub;
+        document.getElementById("rnum10").innerHTML=""+ sub;
         document.getElementById("rnum10").style.display="block";
         isv= sub * 0.15;
-        document.getElementById("rnum11").innerHTML="15% ISV : L. "+ isv;
+        document.getElementById("rnum11").innerHTML=""+ isv;
         document.getElementById("rnum11").style.display="block";
         total = sub + isv;
-        document.getElementById("rnum12").innerHTML="Gran total: L. "+ total;
+        document.getElementById("rnum12").innerHTML=""+ total;
         document.getElementById("rnum12").style.display="block";
       }
     }
     else{
       document.getElementById("rnum7").style.display="none";
       if(adulto>0){
-        document.getElementById("rnum8").innerHTML="Cantidad de adultos : "+ adulto;
+        document.getElementById("rnum8").innerHTML=""+ adulto;
         sub += (1000 * adulto);
         document.getElementById("rnum8").style.display="block";
-        document.getElementById("rnum9").innerHTML="Cantidad de personas : "+ totalp;
+        document.getElementById("rnum9").innerHTML=""+ totalp;
         document.getElementById("rnum9").style.display="block";
-        document.getElementById("rnum10").innerHTML="Sub-total : L. "+ sub;
+        document.getElementById("rnum10").innerHTML=""+ sub;
         document.getElementById("rnum10").style.display="block";
         isv= sub * 0.15;
-        document.getElementById("rnum11").innerHTML="15% ISV : L. "+ isv;
+        document.getElementById("rnum11").innerHTML=""+ isv;
         document.getElementById("rnum11").style.display="block";
         total = sub + isv;
-        document.getElementById("rnum12").innerHTML="Gran total: L. "+ total;
+        document.getElementById("rnum12").innerHTML=""+ total;
         document.getElementById("rnum12").style.display="block";
       }
       else{

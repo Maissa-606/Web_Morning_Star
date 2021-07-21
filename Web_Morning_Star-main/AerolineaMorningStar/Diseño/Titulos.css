@@ -241,98 +241,111 @@ h4
 
 
 
+/* AGREGAR CODIGO NUEVO A APACHE NEATBEANS DESDE AQUÍ*/
 
-
-/* INICIA ANIMACION DE TEXTO
-
-.Titulo2
+#tit_grupo
 {
-  margin-top: -7.5cm;
-  background:transparent;
+  margin-top: 6.5cm;
+  margin-left: 6.5cm;
+  font-size: 1.4cm;
+  color: white;
 }
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-
-html, body
+#img_atardecer
 {
-  height: 100%;
-  font-weight: 800;
+  background-image: url(../Imagenes/img_atardecer2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 890px;
+  position: absolute;
 }
 
-body{
-  background: white;
-  font-family: Arial;
-}
-*/
-
-
-/*
-svg {
-    display: block;
-    font: 10.5em 'Montserrat';
-    width: 960px;
-    height: 300px;
-    margin: 0 auto;
-}
-
-.text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
-}
-
-.text-copy:nth-child(1){
-	stroke: #4D163D;
-	animation-delay: -1;
-}
-
-.text-copy:nth-child(2){
-	stroke: #840037;
-	animation-delay: -2s;
-}
-
-.text-copy:nth-child(3){
-	stroke: #BD0034;
-	animation-delay: -3s;
-}
-
-.text-copy:nth-child(4){
-	stroke: #BD0034;
-	animation-delay: -4s;
-}
-
-.text-copy:nth-child(5){
-	stroke: #FDB731;
-	animation-delay: -5s;
-}
-
-@keyframes stroke-offset
+#Caja_Opaca1
 {
-	100% {stroke-dashoffset: -35%;}
+  margin-top: -6.5cm;
+  width: 100%;
+  height: 890px;
+  background: #360b529a ;
+  opacity: 0.5;
+  position: absolute;
+
+}
+
+#Cuerpo
+{
+  margin-top: 0%;
+  width: 100%;
+  height: 890px;
+}
+
+.animate__fadeInRight
+{
+
+  animation-duration: 2.9s; /* don't forget to set a duration! */
+}
+.Cuerpo-un
+{
+  margin-top: -16.4cm;
+  width: 100%;
+  position: absolute;
+}
+
+#Grupo
+{
+  margin-top: -4.5cm;
+  position: absolute;
+  background: #0f2b3a;
+  width: 100%;
+  height: 900px;
+}
+
+#sxc_Maissa
+{
+  position: relative;
+}
+
+.Maissa
+{
+  margin-left: 2cm;
+  margin-top: 2cm;
+  position: absolute;
+  width: 550px;
+  height: 450px;
   
 }
 
- <!-- 
-               <div class="Titulo2">
-              <svg viewBox="0 0 1000 400">
-                <symbol id="s-text">
-                  <text text-anchor="middle" x="50%" y="80%">Viaja Hoy</text>
-                </symbol> 
-                <g class = "g-ants">
-                  <use xlink:href="#s-text" class="text-copy"></use>
-                  <use xlink:href="#s-text" class="text-copy"></use>
-                  <use xlink:href="#s-text" class="text-copy"></use>
-                  <use xlink:href="#s-text" class="text-copy"></use>
-                  <use xlink:href="#s-text" class="text-copy"></use>
-                </g>
-              </svg>
-            </div> TERMINA TITULO ANIMADO
-            -->
- FIN ANIMACION DE TEXTO*/
+.marco1
+{
+  margin-left: 2cm;
+  margin-top: 2cm;
+  position: absolute;
+  width: 610px;
+  height: 510px;
 
- 
+}
+
+#inf_personal
+{
+  position: absolute;
+  margin-top: 2.5cm;
+  margin-left: 18.5cm;
+}
+
+#nomb
+{
+  margin-left: 20px;
+  color: #ffbc51;
+}
+
+#inf
+{
+  margin-left: -20px;
+  font-size: 35px;
+  line-height: 2cm;
+  margin-top: 1.5cm;
+  color: aliceblue;
+}
+
+
 
  
