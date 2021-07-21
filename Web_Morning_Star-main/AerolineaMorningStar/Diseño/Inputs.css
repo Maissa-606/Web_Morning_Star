@@ -74,7 +74,7 @@
 #Cont-Form-Compra{
     background-color: white;
     width: 920px;
-    height: 560px;
+    height: 570px;
     position: absolute;
     margin-left: 250px;
     margin-top: 160px;
@@ -98,7 +98,7 @@
   position: absolute;
   margin-top: 20px;
   width: 500px;
-  height: 280px;
+  height: 295px;
   }
   .Centrar-Titulo{
     margin-left: 170px;
@@ -109,4 +109,37 @@
     margin-top: 60px;
     position: absolute;
     color: white;
+}
+#foto{
+    width: 500px;;
+    height: 290px;
+    margin: 0px;
+    overflow: hidden;
+}
+#foto ul{
+    padding: 0;
+    display: flex;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function:ease-in;
+}
+#foto li{
+    list-style: none;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    8%{margin-left: 0;}
+    12%{margin-left: -100%;}
+    20%{margin-left: -100%;}
+    24%{margin-left: -200%;}
+    32%{margin-left: -200%;}
+    36%{margin-left: -300%;}
+    44%{margin-left: -300%;}
+    48%{margin-left: -400%;}
+    56%{margin-left: -400%;}
+    60%{margin-left: -500%;}
+    68%{margin-left: -600%;}
+    72%{margin-left: -700%;}
+    80%{margin-left: -700%;}
+    84%{margin-left: -800%;}
+    100%{margin-left: -800%;}
 }

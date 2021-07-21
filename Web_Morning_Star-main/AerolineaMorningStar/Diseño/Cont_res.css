@@ -221,6 +221,26 @@ height: 12cm;
 .Botones_Compra{
   margin-top: 10px;
 }
+#n1{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 550px;
+}
+#n2{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 550px;
+}
+#n3{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 550px;
+}
+#n4{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 550px;
+}
 .datosNumero{
   width: 40px;
 }
@@ -285,7 +305,7 @@ height: 12cm;
 .Factura1{
   position: absolute;
   margin-left: 120px;
-  margin-top: -20px;
+  margin-top: -5px;
 }
 .Factura2{
   position: absolute;

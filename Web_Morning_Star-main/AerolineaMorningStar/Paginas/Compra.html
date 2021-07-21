@@ -125,6 +125,20 @@
                               Borrar
                             </button>
                           </div>
+                          <div>
+                            <label id="n1">
+                              Niños: Menores de 5 años<br>Valor: gratis
+                            </label>
+                            <label id="n2">
+                              Niños: De 5 a 10 años<br>Valor: L. 250c/u
+                            </label>
+                            <label id="n3">
+                              Jovenes: De 11 a 17 años<br>Valor: L. 500c/u
+                            </label>
+                            <label id="n4">
+                              Adultos: De 18 en adelante<br>Valor: L. 1000c/u
+                            </label> 
+                        </div> 
                           <script>
                               document.getElementById("num1").value=localStorage.getItem("text1");
                               document.getElementById("num2").value=localStorage.getItem("text2");
@@ -132,9 +146,22 @@
                               document.getElementById("num4").value=localStorage.getItem("text4");
                           </script>
                           <Fieldset>
-                           <label class="Centrar-Titulo">Factura de Compra</label>
-                            <hr>
-                            <label id="Dato1">Origen:</label>
+                            <div id="foto">
+                              <ul>
+                                <li><img src="../Imagenes/aero4.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero5.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero6.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero7.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero8.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero9.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero10.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero11.jpg" width="500px" height="290px"></li>
+                                <li><img src="../Imagenes/aero12.jpg" width="500px" height="290px"></li>
+                              </ul>
+                            </div>
+                           <label class="Centrar-Titulo" style="display: none;" id="titulo">Factura de Compra</label>
+                            <hr id="linea1" style="display: none;">
+                            <!--<label id="Dato1">Origen:</label>
                             <label id="Dato2">Destino:</label>
                             <label id="Dato3">Fecha de Inicio:</label>
                             <label id="Dato4">Fecha Final:</label>
@@ -145,43 +172,43 @@
                             <label id="Dato9">Pasajeros:</label>
                             <label id="Dato10">Sub-Total:</label>
                             <label id="Dato11">15% ISV:</label>
-                            <label id="Dato12">Total Pagado:</label>
+                            <label id="Dato12">Total Pagado:</label>-->
                             <div class="Factura1">
                               <label id="rnum1"></label>
-                            </div>
-                            <div class="Factura2">
+                            <!--</div>
+                            <div class="Factura2">-->
                               <label id="rnum2"></label>
-                            </div>
-                            <div class="Factura3">
+                            <!--</div>
+                            <div class="Factura3">-->
                               <label  id="rnum3"></label>
-                            </div>
-                            <div class="Factura4">
+                            <!--</div>
+                            <div class="Factura4">-->
                               <label  id="rnum4"></label>
-                            </div>
-                            <div class="Factura5">
-                              <label id="rnum5"></label>
-                            </div>
-                            <div class="Factura6">
+                            <!--</div>
+                            <div class="Factura5">-->
+                              <label id="rnum5"></label><hr id="linea2" style="display: none;">
+                            <!--</div>
+                            <div class="Factura6">-->
                               <label  id="rnum6"></label>
-                            </div>
-                            <div class="Factura7">
+                            <!--</div>
+                            <div class="Factura7">-->
                               <label id="rnum7"></label>
-                            </div>
-                            <div class="Factura8">
-                              <label  id="rnum8"></label>
-                            </div>
-                            <div class="Factura9">
-                              <label  id="rnum9"></label>
-                            </div>
-                            <div class="Factura10" >
+                            <!--</div>
+                            <div class="Factura8">-->
+                              <label  id="rnum8"></label><hr id="linea3" style="display: none;">
+                            <!--</div>
+                            <div class="Factura9">-->
+                              <label  id="rnum9"></label><hr id="linea4" style="display: none;">
+                            <!--</div>
+                            <div class="Factura10" >-->
                               <label id="rnum10"></label>
-                            </div>
-                            <div class="Factura11" >
+                            <!--</div>
+                            <div class="Factura11" >-->
                               <label id="rnum11"></label>
-                            </div>
-                            <div class="Factura12">
+                            <!--</div>
+                            <div class="Factura12">-->
                               <label id="rnum12"></label>
-                            </div>
+                           </div>
                           </Fieldset>
                         </div>                     
                       </div>        
