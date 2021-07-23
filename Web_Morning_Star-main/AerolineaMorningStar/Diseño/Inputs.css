@@ -138,7 +138,7 @@
 }
 /*Nuevo css en Aerolinea*/
 #Texto-Aerolineas,h1{
-    color: rgb(11, 175, 175);
+    color: #0f2b3a;
     text-align: center;
 }
 #Texto-Aerolineas{
@@ -149,7 +149,7 @@
 #Texto-Parrafo,p{
     margin-top: 10px;
     text-align: center;
-    color: rgb(11, 175, 175);
+    color: #0f2b3a;
 }
 #Estados-Unidos{
     margin-left: 20px;
