@@ -19,6 +19,25 @@
   position: absolute;
 }
 
+#seccion_pais2
+{
+  margin-top: -0.9cm;
+}
+
+#Seccion_Media2
+{
+  width: 100%;
+  z-index: 2; /* Permite tener la franja blanca encima del panel naranja*/
+  margin-top: 2cm;
+  position: absolute;
+}
+
+#CajaMario
+{
+  margin-top: 13cm;
+  background-color: #171518;
+  height: 40cm;
+}
 
 #Seccion_Media
 {
@@ -140,13 +159,14 @@
 }
 
 
-#Caja-Opaca{
+#Caja-Opaca
+{
   background-color: black;
   opacity: 0.3;
   position:absolute;
   margin-top: 0%;
   width: 100%;
-  height: 12cm;
+  height: 22cm;
 
 }
 
@@ -157,12 +177,13 @@ z-index: 0;
 width: 100%;
 height: 12cm;
 }
-#Cont-Form{
+#Cont-Form
+{
   background-color: white;
-  width: 920px;
+  width: 980px;
   height: 238px;
   position: absolute;
-  margin-left: 250px;
+  margin-left: 210px;
   margin-top: 160px;
   border-radius: 15px;
 }
@@ -170,37 +191,47 @@ height: 12cm;
 #Encb_Form
 {
   background-color: #0f2b3a;
-  width: 920px;
+  width: 980px;
   height: 55px;
   position: absolute;
   margin-left: 0px;
-  margin-top: -114px;
   border-radius: 10px;
+}
+
+#tit
+{
+  margin-top: 2.6cm;
+  margin-left: 0.9cm;
+
 }
 
 #seccion_pais
 {
-  margin-top: -15px;
+ margin-top: -4px;
   margin-left: 30px;
   width: 4cm;
 }
-
+#Seccion_Media2
+{
+  margin-top: 1cm;
+}
 #seccion_pais2
 {
   margin-left: 290px;
-  margin-top: -17px;
   position: absolute;
 }
-#Calendario{
+#Calendario
+{
+  margin-top: -35px;
   position: absolute;
   margin-left: 530px;
-  margin-top: -17px;
 }
 
-#Calendario2{
+#Calendario2
+{
+  margin-top: -35px;
   position: absolute;
   margin-left: 700px;
-  margin-top: -17px;
 }
 
 .contenidor_formulario{

@@ -218,26 +218,6 @@ h4
   margin-left: 32.3cm;
 }
 
-#origen
-{
-  font-family: 'Bree Serif', serif;
-  font-size: 15px;
-  margin-top: 3cm;
-  margin-left: 30px;
-  color: #e656a5;
-  text-decoration: none;
-}
-
-#destino
-{
-  font-family: 'Bree Serif', serif;
-  font-size: 15px;
-  margin-left: 7.6cm;
-  margin-top: -1.5cm;
-  color: #e656a5;
-  text-decoration: none;
-
-}
 
 
 
@@ -535,4 +515,58 @@ h4
 
 }
 
- 
+#origen
+{
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  color: #e656a5;
+  text-decoration: none;
+}
+
+#destino
+{
+  margin-top: -0.9cm;
+  margin-left: 6.8cm;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  color: #e656a5;
+  text-decoration: none;
+
+}
+#salida
+{
+  margin-top: -1cm;
+  margin-left: 13.1cm;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  color: #e656a5;
+  text-decoration: none;
+}
+
+#btn_enviar
+{
+  margin-top: -0.8cm;
+
+}
+#Enviar
+{
+  padding: 5px;
+  border-radius: 8px;
+  margin-left: 23.1cm;
+  color: #0f2b3a;
+  background: #ecac44;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+#regreso
+{
+  margin-top: -1.1cm;
+  margin-left: 17.6cm;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+  color: #e656a5;
+  text-decoration: none;
+
+}
+

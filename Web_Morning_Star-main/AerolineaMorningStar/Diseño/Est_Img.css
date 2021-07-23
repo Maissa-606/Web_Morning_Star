@@ -122,9 +122,11 @@
   width: 450px;
 }
 
-#Fondo-Aerolinea{
+#Fondo-Aerolinea
+{
+  margin-top: 0%;
   width: 100%;
-  height: 12cm;
+  height: 22cm;
   background-image: url(../Imagenes/fondo_aerolinea.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
