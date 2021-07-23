@@ -14,12 +14,7 @@
         <link href="..Diseño/Inputs.css" rel="stylesheet" type="text/css" />
         <link href="../Diseño/Inputs.css" rel="stylesheet" type="text/css"/>
     
-        <!-- LINKS DE PAGINAS HTML, SI DA UN ERROR POSIBLEMENTE SE DEBA AL TEXT-->
-        <link href="Paginas/Acerca de.html"  type="text/html" />
-        <link href="Paginas/Aereolinea.html"  type="text/html" />
-        <link href="Paginas/Iniciar Sesion.html"  type="text/html" />
-        <link href="Paginas/Quienes Somos.html"  type="text/html" />
-    
+
             
         <!-- LINKS DE FUENTES UTILIZADAS EN EL PROYECTO-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -36,25 +31,27 @@
 <body>
   <div class="Encabezado">
       <div id="Logo1">
-        <img class="Logo_ent1" src="../Imagenes/LOGO_ENTERO1.png">
+        <img class="Logo_ent1" src="Imagenes/LOGO_ENTERO1.png">
       </div> <!--Finaliza Cuadro de Logo-->
+
       <div id="Navegacion">
         <ul class="Nav">
           <div id="inicio">
-            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="/abrirIndex">Inicio</a></li>
           </div>
           <div id="Aereo">
-            <li><a href="../Paginas/Aereolinea.html">Aereolinea</a></li>
+            <li><a href="/crear">Aereolinea</a></li>
           </div>
           <div id="Conocer">
-            <li><a href="../Paginas/Quienes Somos.html">Quienes Somos</a></li>
+            <li><a href="/abrirQuienesSomos">Quienes Somos</a></li>
           </div>
           <div id="Acer_d">
-            <li><a href="../Paginas/Acerca de.html">Acerca de</a></li>
+            <li><a href="/abrirAcercaDe">Acerca de</a></li>
           </div>
+         
         </ul>
       </div> <!--Finaliza Contenedor de Navegacion-->
-  </div> <!--FINALIZA ENCABEZADO DE LA PAGINA-->
+    </div> <!--FINALIZA ENCABEZADO DE LA PAGINA-->
 
 
   <div id="Cuerpo-Principal2">
@@ -111,7 +108,7 @@
                     </div>
 
                     <div id="btn_enviar">
-                      <a href="../Paginas/Compra.html" type="submit" value="Click" onclick="traspaso()" id="Enviar">Comprar</a>
+                      <a href="/abrirCompra" type="submit" value="Click" onclick="traspaso()" id="Enviar">Comprar</a>
                     </div>
                   </div>
                 </div> <!--Finaliza Contenedor Text-->
@@ -165,31 +162,31 @@
 
   </div>
 
-  <!--INICIA PIE DE PAGINA-->
+<!--INICIA PIE DE PAGINA-->
   <footer id="Pie-Aerolinea">
     <div id="frja_divisor">
-      <img class="Cuerpo" src="../Imagenes/Cuerpo3.png">
-    </div>
-      <div id="Logo">
-        <img class="Logo_ent" src="../Imagenes/LOGO_ENTERO1.png">
-      </div>
-      <h4 id="Derechos">
-        ©2021 by Morning Star. Todos los Derechos Reservados
-      </h4> 
-      <div id="Hipervinculos">
-        <div id="hip1">
-          <a href="../index.html"><h4>Inicio<h4></a>
-        </div>
-        <div id="hip2">
-          <a href="../Paginas/Aereolinea.html" ><h4>Aereolinea<h4></a>
-        </div>
-        <div id="hip3">
-          <a href="../Paginas/Quienes Somos.html" ><h4>Quienes Somos<h4></a>
-        </div>
-        <div id="hip4">
-          <a href="../Paginas/Acerca de.html" ><h4>Acerca de<h4></a>
-        </div>
-      </div> <!--Finaliza Contenedor de Hipervinculos-->
+            <img class="Cuerpo" src="Imagenes/Cuerpo3.png">
+            </div>
+            <div id="Logo">
+              <img class="Logo_ent" src="Imagenes/LOGO_ENTERO1.png">
+            </div>
+            <h4 id="Derechos">
+              ©2021 by Morning Star. Todos los Derechos Reservados
+            </h4> 
+            <div id="Hipervinculos">
+              <div id="hip1">
+                <a href="/abrirIndex"><h4>Inicio<h4></a>
+              </div>
+              <div id="hip2">
+                <a href="/abrirAereolinea" ><h4>Aereolinea<h4></a>
+              </div>
+              <div id="hip3">
+                <a href="/abrirQuienesSomos" ><h4>Quienes Somos<h4></a>
+              </div>
+              <div id="hip4">
+                <a href="abrirAcercaDe" ><h4>Acerca de<h4></a>
+              </div>
+            </div> <!--Finaliza Contenedor de Hipervinculos-->
   </footer>  <!--FINALIZA PIE DE PAGINA-->
   </body>
 </html>

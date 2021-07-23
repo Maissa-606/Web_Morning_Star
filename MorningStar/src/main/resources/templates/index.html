@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
 <html lang="es">
   <head>
     <meta charset="utf-8">
@@ -11,20 +17,16 @@
     <link href="Diseño/Est_Img.css" rel="stylesheet" type="text/css" />
     <link href="Diseño/Cont_res.css" rel="stylesheet" type="text/css" />
     <link href="Diseño/Botones.css" rel="stylesheet" type="text/css" />
-
-    <!-- LINKS DE PAGINAS HTML, SI DA UN ERROR POSIBLEMENTE SE DEBA AL TEXT-->
-    <link href="Paginas/Acerca de.html"  type="text/html" />
-    <link href="Paginas/Aereolinea.html"  type="text/html" />
-    <link href="Paginas/Iniciar Sesion.html"  type="text/html" />
-    <link href="Paginas/Quienes Somos.html"  type="text/html" />
-
+    
         
     <!-- LINKS DE FUENTES UTILIZADAS EN EL PROYECTO-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-
+     <!-- ESTE LINK ES DE JAVASCRIPT -->
+    <script src="../JavaScript/main.js"></script>
+    
   </head> 
   
   <body>
@@ -36,22 +38,25 @@
       <div id="Navegacion">
         <ul class="Nav">
           <div id="inicio">
-            <li><a href="index.html">Inicio</a></li>
+            <li><a href="/abrirIndex">Inicio</a></li>
           </div>
           <div id="Aereo">
-            <li><a href="Paginas/Aereolinea.html">Aereolinea</a></li>
+            <li><a href="/abrirAereolinea">Aereolinea</a></li>
           </div>
           <div id="Conocer">
-            <li><a href="Paginas/Quienes Somos.html">Quienes Somos</a></li>
+            <li><a href="/abrirQuienesSomos">Quienes Somos</a></li>
           </div>
           <div id="Acer_d">
-            <li><a href="Paginas/Acerca de.html">Acerca de</a></li>
+            <li><a href="/abrirAcercaDe">Acerca de</a></li>
           </div>
          
         </ul>
       </div> <!--Finaliza Contenedor de Navegacion-->
     </div> <!--FINALIZA ENCABEZADO DE LA PAGINA-->
 
+    
+    
+    
     <div id="Cuerpo_Principal">
       <div id="imgs_Fondo">
         <div id="Fondo_Avion">
@@ -66,7 +71,7 @@
                 Inolvidables
               </h1>
               <div id="Boton_Inicio">
-                <a class="btnUno" href="Paginas/Aereolinea.html" >Comprar Boleto</a>
+                <a class="btnUno" href="/crear" >Comprar Boleto</a>
               </div>
             </div> <!--FINALIZA TEXTO BIENVENIDA-->
           </div> <!--FINALIZA SECCION UNO (O CONTENEDOR UNO) DE LA PAGINA-->
@@ -93,7 +98,7 @@
                     </p>
                   </div>
                   <div id="btn_Registro">
-                    <a class="btnDos" href="Paginas/Iniciar Sesion.html" >Registrate ya</a>
+                    <a class="btnDos" href="" >Registrate ya</a>
                   </div>
                 </div> <!--CONTENIDO-->
               </div><!--Termina Caja Naranja-->
@@ -113,7 +118,7 @@
                   </p>
 
                   <div id="btn_Conocer">
-                    <a class="btnTres" href="Paginas/Quienes Somos.html" >Quienes Somos</a>
+                    <a class="btnTres" href="/abrirQuienesSomos" >Quienes Somos</a>
                   </div>
                 </div>
 
@@ -136,7 +141,7 @@
                     ¡Se libre de contactarnos!
                   </p>
                   <div id="btn_acercaD">
-                    <a class="btnCuatro" href="Paginas/Acerca de.html" >Acerca de</a>
+                    <a class="btnCuatro" href="/abrirAcercaDe" >Acerca de</a>
                   </div>
                 </div>
               </div>
@@ -211,16 +216,16 @@
             </h4> 
             <div id="Hipervinculos">
               <div id="hip1">
-                <a href="index.html"><h4>Inicio<h4></a>
+                <a href="/abrirIndex"><h4>Inicio<h4></a>
               </div>
               <div id="hip2">
-                <a href="Paginas/Aereolinea.html" ><h4>Aereolinea<h4></a>
+                <a href="/abrirAereolinea" ><h4>Aereolinea<h4></a>
               </div>
               <div id="hip3">
-                <a href="Paginas/Quienes Somos.html" ><h4>Quienes Somos<h4></a>
+                <a href="/abrirQuienesSomos" ><h4>Quienes Somos<h4></a>
               </div>
               <div id="hip4">
-                <a href="Paginas/Acerca de.html" ><h4>Acerca de<h4></a>
+                <a href="abrirAcercaDe" ><h4>Acerca de<h4></a>
               </div>
              
             </div> <!--Finaliza Contenedor de Hipervinculos-->
