@@ -118,7 +118,8 @@
                             <button type="button" onclick="pago()" id="boton1" >
                               Pagar
                             </button>
-                            <button type="button" onclick="window.print()" id="boton2">
+               
+                            <button type="button" onclick="printDiv('imprimirFactura')" value="imprimir div" id="boton2">
                               Imprimir
                             </button>
                             <button type="button" onclick="borrador()" id="boton3">
@@ -159,56 +160,59 @@
                                 <li><img src="../Imagenes/aero12.jpg" width="500px" height="290px"></li>
                               </ul>
                             </div>
-                           <label class="Centrar-Titulo" style="display: none;" id="titulo">Factura de Compra</label>
-                            <hr id="linea1" style="display: none;">
-                            <!--<label id="Dato1">Origen:</label>
-                            <label id="Dato2">Destino:</label>
-                            <label id="Dato3">Fecha de Inicio:</label>
-                            <label id="Dato4">Fecha Final:</label>
-                            <label id="Dato5">Comprador:</label>
-                            <label id="Dato6">Niños:</label>
-                            <label id="Dato7">Jovenes:</label>
-                            <label id="Dato8">Adultos:</label>
-                            <label id="Dato9">Pasajeros:</label>
-                            <label id="Dato10">Sub-Total:</label>
-                            <label id="Dato11">15% ISV:</label>
-                            <label id="Dato12">Total Pagado:</label>-->
-                            <div class="Factura1">
-                              <label id="rnum1"></label>
-                            <!--</div>
-                            <div class="Factura2">-->
-                              <label id="rnum2"></label>
-                            <!--</div>
-                            <div class="Factura3">-->
-                              <label  id="rnum3"></label>
-                            <!--</div>
-                            <div class="Factura4">-->
-                              <label  id="rnum4"></label>
-                            <!--</div>
-                            <div class="Factura5">-->
-                              <label id="rnum5"></label><hr id="linea2" style="display: none;">
-                            <!--</div>
-                            <div class="Factura6">-->
-                              <label  id="rnum6"></label>
-                            <!--</div>
-                            <div class="Factura7">-->
-                              <label id="rnum7"></label>
-                            <!--</div>
-                            <div class="Factura8">-->
-                              <label  id="rnum8"></label><hr id="linea3" style="display: none;">
-                            <!--</div>
-                            <div class="Factura9">-->
-                              <label  id="rnum9"></label><hr id="linea4" style="display: none;">
-                            <!--</div>
-                            <div class="Factura10" >-->
-                              <label id="rnum10"></label>
-                            <!--</div>
-                            <div class="Factura11" >-->
-                              <label id="rnum11"></label>
-                            <!--</div>
-                            <div class="Factura12">-->
-                              <label id="rnum12"></label>
-                           </div>
+                          
+                            <div id="imprimirFactura">
+                                <label class="Centrar-Titulo" style="display: none;" id="titulo">Factura de Compra</label>
+                              <hr id="linea1" style="display: none;">
+                              <!--<label id="Dato1">Origen:</label>
+                              <label id="Dato2">Destino:</label>
+                              <label id="Dato3">Fecha de Inicio:</label>
+                              <label id="Dato4">Fecha Final:</label>
+                              <label id="Dato5">Comprador:</label>
+                              <label id="Dato6">Niños:</label>
+                              <label id="Dato7">Jovenes:</label>
+                              <label id="Dato8">Adultos:</label>
+                              <label id="Dato9">Pasajeros:</label>
+                              <label id="Dato10">Sub-Total:</label>
+                              <label id="Dato11">15% ISV:</label>
+                              <label id="Dato12">Total Pagado:</label>-->
+                              <div class="Factura1">
+                                <label id="rnum1"></label>
+                                <!--</div>
+                                <div class="Factura2">-->
+                                  <label id="rnum2"></label>
+                                <!--</div>
+                                <div class="Factura3">-->
+                                  <label  id="rnum3"></label>
+                                <!--</div>
+                                <div class="Factura4">-->
+                                  <label  id="rnum4"></label>
+                                <!--</div>
+                                <div class="Factura5">-->
+                                  <label id="rnum5"></label><hr id="linea2" style="display: none;">
+                                <!--</div>
+                                <div class="Factura6">-->
+                                  <label  id="rnum6"></label>
+                                <!--</div>
+                                <div class="Factura7">-->
+                                  <label id="rnum7"></label>
+                                <!--</div>
+                                <div class="Factura8">-->
+                                  <label  id="rnum8"></label><hr id="linea3" style="display: none;">
+                                <!--</div>
+                                <div class="Factura9">-->
+                                  <label  id="rnum9"></label><hr id="linea4" style="display: none;">
+                                <!--</div>
+                                <div class="Factura10" >-->
+                                  <label id="rnum10"></label>
+                                <!--</div>
+                                <div class="Factura11" >-->
+                                <label id="rnum11"></label>
+                                <!--</div>
+                                <div class="Factura12">-->
+                                <label id="rnum12"></label>
+                              </div>
+                          </div> <!--Finaliza Div de Factura-->
                           </Fieldset>
                         </div>                     
                       </div>        
