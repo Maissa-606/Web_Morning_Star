@@ -143,3 +143,62 @@
     84%{margin-left: -800%;}
     100%{margin-left: -800%;}
 }
+/*Nuevo css en Aerolinea*/
+#Texto-Aerolineas,h1{
+    color: rgb(11, 175, 175);
+    text-align: center;
+}
+#Texto-Aerolineas{
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#Texto-Parrafo,p{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(11, 175, 175);
+}
+#Estados-Unidos{
+    margin-left: 20px;
+}
+#Paises1{
+    text-align: left;
+    margin-left: 4cm;
+}
+#España{
+    margin-left: 19cm;
+    margin-top: -447px;
+}
+#Paises2{
+    margin-left: 900px;
+    margin-top: -568px;
+    position: absolute;
+}
+#Contenedor-Imagen{
+    position: relative;
+}
+#Pie-Aerolinea{
+    margin-top: 90px;
+  }
+#Body-Aerolina{
+    background-color: rgb(25, 26, 26);
+}
+#Paises3{
+    text-align: left;
+    margin-left: 6cm;
+}
+#Honduras{
+    margin-left: 25px;
+}
+#Paises4{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -560px;
+}
+#Colombia{
+    margin-left: 720px;
+    margin-top: -10px;
+}
+#Pie-Compra{
+    margin-top: 300px;
+}
